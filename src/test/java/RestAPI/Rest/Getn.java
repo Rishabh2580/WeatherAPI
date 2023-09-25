@@ -14,6 +14,8 @@ import io.restassured.response.Response;
 public class Getn {
   
 	RestUtils restutils = new RestUtils();
+	
+	
 	@Test(priority=1)
 	public void validateWeatherId500AndDescription() throws InterruptedException {
 
